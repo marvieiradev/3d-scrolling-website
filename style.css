@@ -75,16 +75,16 @@ h4 {
   background-color: #d1d1d1;
 }
 
-video.frame-media {
+video .frame-media {
   width: 800px;
   height: 600px;
 }
 
-video.frame-media_right {
+video .frame-media_right {
   left: 100px;
 }
 
-video.frame-media_left {
+video .frame-media_left {
   right: 100px;
 }
 
@@ -105,4 +105,8 @@ video.frame-media_left {
 .frame p {
   max-width: 30vw;
   margin-top: 3vh;
+}
+video {
+  height: 10px;
+  width: 10px;
 }
